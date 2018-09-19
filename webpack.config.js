@@ -48,6 +48,7 @@ const config = {
     new LodashModuleReplacementPlugin({
       collections: true,
       shorthands: true,
+      paths: true,
     }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(env),
